@@ -1,0 +1,1 @@
+blood_sprite_mask = s_saloon_mask;
