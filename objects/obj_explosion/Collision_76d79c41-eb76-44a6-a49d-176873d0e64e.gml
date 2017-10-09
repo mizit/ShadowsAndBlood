@@ -5,6 +5,6 @@ with (other)
 	{
 		death = scr_death_burst;
 		instance_destroy();
-		blood_burst(x, y, 3000);
+		blood_burst(x, y, 30);
 	}
 }

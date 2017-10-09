@@ -1,5 +1,6 @@
-/// @description 
-enum BLOOD
+//There is my particles system. It works quite slower then standart, but more complicated.
+//It includes list of particles. Every particle is small list.
+enum BLOOD	//It is enum for describe one particle list.
 {
 	X = 0,
 	Y = 1,

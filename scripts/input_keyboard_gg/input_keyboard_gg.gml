@@ -1,5 +1,6 @@
-/// @description Controlling gg by keyboard
+/// @description Controlling gg by keyboard and mouse
 
+//movement
 var l_h, l_v;
 l_h = (keyboard_check(ord("D")) - keyboard_check(ord("A"))) * accel;
 l_v = (keyboard_check(ord("S")) - keyboard_check(ord("W"))) * accel;
@@ -12,6 +13,7 @@ hspeed += l_h;
 vspeed += l_v;
 speed = min(speed, max_speed);
 
+//dinamite
 if (mouse_check_button_pressed(mb_right))
 {
 	var tmp = instance_create(x, y - 5, obj_dinamite);
@@ -19,6 +21,7 @@ if (mouse_check_button_pressed(mb_right))
 	tmp.speed = 8;
 }
 
+//bullets
 if (mouse_check_button_pressed(mb_left))
 {
 	var tmp = instance_create(x, y - 5, obj_bullet);

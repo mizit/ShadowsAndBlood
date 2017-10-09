@@ -23,7 +23,7 @@ else
 if (shrink_start)
 {
 	image_xscale = max(shrink_goal, image_xscale - shrink_step);
-	if (image_xscale == shrink_goal)
+	if (image_xscale <= shrink_goal)
 	{
 		gnd_draw_surface(obj_ground_control, my_surf, x - surf_size / 2, y - surf_size);
 		instance_destroy();

@@ -1,4 +1,4 @@
-/// @description random blood explosion
+/// @description This is example how to create blood explosion with any colour.
 /// @param x
 /// @param y
 /// @param num number of blood blobs

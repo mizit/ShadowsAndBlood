@@ -1,8 +1,7 @@
-/// @description random blood explosion
+/// @description This is example how to create blood explosion.
 /// @param x
 /// @param y
 /// @param num number of blood blobs
-
 
 repeat(argument2)
 {

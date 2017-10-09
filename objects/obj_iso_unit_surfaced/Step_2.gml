@@ -25,7 +25,7 @@ if (surface_exists(blood_surf))
 		blood_surf_buf = surface_create(sprite_width, sprite_height);
 	}
 	surface_set_target(blood_surf_buf);
-	shader_set(shd_ground);
+	shader_set(shd_buildings);
 	draw_surface(blood_surf, 0, 0);
 	shader_reset();
 	surface_reset_target();

@@ -10,7 +10,8 @@ var l_y = argument3;
 
 with (l_gnd_ctrl)
 {
-	var l_gx = 0, l_gy = 0;
+	var l_gx = 0;
+	var l_gy = 0;
 	l_gx = floor(l_x / surf_size);
 	l_gy = floor(l_y / surf_size);
 	

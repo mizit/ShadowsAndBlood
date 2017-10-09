@@ -1,4 +1,4 @@
-// @decription 
+// @decription simple script for clearing surfaces
 // @param surf
 
 var l_surf = argument0;

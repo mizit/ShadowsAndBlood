@@ -1,3 +1,4 @@
+/// @description controlling view
 if (mouse_wheel_down())
 {
 	scale_goal *= (1 + scale_step);
