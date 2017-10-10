@@ -17,7 +17,7 @@ for (var i = 0; i < ds_list_size(blood_list); i++)
 			{
 				blood_draw_on_iso_unit(obj_unit, blood);
 				gnd_draw_sprite_ext(obj_ground_control, sprite_ground,
-				blood[| BLOOD.X], blood[| BLOOD.Y] - blood[| BLOOD.Z],
+				blood[| BLOOD.X], obj_unit.y - obj_unit.sprite_yoffset + obj_unit.sprite_height,//blood[| BLOOD.Y],// - blood[| BLOOD.Z],
 				2 * blood[| BLOOD.SIZE] / sprite_size, 2 * blood[| BLOOD.SIZE] / sprite_size / 3,
 				0, blood[| BLOOD.COLOUR], image_alpha);
 			}

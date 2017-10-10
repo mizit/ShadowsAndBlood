@@ -1,11 +1,8 @@
-/// @description 
-//event_inherited();
-//draw_text(x, y, shadow_yoffset);
 if (z > 0)
 {
 	event_inherited();
 }
-else
+else	//If object on ground it will shown in prospect.
 {
 	if (!surface_exists(surf))
 	{
