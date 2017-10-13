@@ -16,3 +16,4 @@ z_gravity = 1;
 sprite_fly = s_blood_fly;
 sprite_ground = s_blood;
 sprite_size = sprite_get_width(sprite_fly);
+//depth = -20000;

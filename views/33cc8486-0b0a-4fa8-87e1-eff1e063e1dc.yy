@@ -8,7 +8,8 @@
         "ffc3292a-420f-454a-b910-0084761c8050",
         "06539eee-fc93-4f2c-8713-39ea2f2a3d52",
         "47da8e92-ba04-40be-aaf6-b27d008d9c71",
-        "a7928960-91ec-4f83-90f1-05edd4cf9035"
+        "a7928960-91ec-4f83-90f1-05edd4cf9035",
+        "f3a0fd3c-a704-4632-a1c0-78bcad27274c"
     ],
     "filterType": "GMSprite",
     "folderName": "masks",
